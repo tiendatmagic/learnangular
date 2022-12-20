@@ -1,0 +1,17 @@
+<label for="cities">Thành phố</label>
+
+<select id="cities" (change)="changeCity($event)">
+  <option value="">Vui lòng chọn</option>
+  <option value="{{ data.city }}" *ngFor="let data of cities">
+    {{ data.city }}
+  </option>
+</select>
+<!--  -->
+<label for="district">Quận huyện</label>
+
+<select id="district">
+  <option value="">Vui lòng chọn</option>
+  <option value="" *ngFor="let district of districts">
+    {{ district }}
+  </option>
+</select>

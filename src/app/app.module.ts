@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ComboboxComponent } from './combobox/combobox.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComboboxComponent
   ],
   imports: [
     BrowserModule,
